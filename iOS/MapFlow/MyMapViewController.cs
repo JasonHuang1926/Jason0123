@@ -6,7 +6,7 @@ namespace Jason.iOS
 {
 	public partial class MyMapViewController : UIViewController
 	{
-		public MyMapViewController() : base("MyMapViewController", null)
+		public MyMapViewController(IntPtr handle) : base(handle)
 		{
 		}
 
